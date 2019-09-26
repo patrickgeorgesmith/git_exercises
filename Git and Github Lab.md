@@ -2,33 +2,44 @@
 
 ## First Set
 1. Create a new directory on your Desktop called git_exercises and cd into that directory.
-   	 **
+   	'''
     cd desktop
     mkdir git_exercises
     cd git_exercises
-    **
+    '''
 
    
 2. Using `git init`, create a new repository.
+   '''
    cd git_exercises
    git intit
+   '''
+
 3. Using the `touch` command, create empty files called foo and bar in your repository directory.
+    '''   
     cd git_exercises
     touch foo.html
     touch bar.html
+    '''
 
 4. Enter `ls` to make sure they were added.
+    '''
     cd git_exercises
     ls
+    '''
 
 5. Check your `git status`.
+    '''
     cd git_exercises
     git status
+    '''
 
 6. Using `git add foo`, add `foo` to the staging area. Confirm with `git status` that it worked.
+    '''
     git add foo.html
     git status
-
+    '''
+    
 7. Using `git commit -m` add an appropriate message, add foo to the repository.
    git commit -m 'Adding foo'
 
