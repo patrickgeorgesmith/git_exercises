@@ -51,6 +51,7 @@
 9. Using `git add bar`, add bar to staging area. Confirm with git status that it worked.
     ```
     git add bar.html
+    git status
     ```
 
 10. Now run `git commit -m` option, and add the message `“Add bar”`.
@@ -84,7 +85,7 @@
 
 4. Add baz to the staging area using `git add .`, then commit with the message `"Add bazz"`.
     ```
-    git add baz.js
+    git add .
     git commit -m 'Add bazz'
     ```
 
@@ -110,9 +111,9 @@
     ```
     cd git_exercises
     touch README.md
-    git add README.md 
-    git commit -m 'Adding ReadMe"
-    git log
+    git add .
+    git commit -m 'Adding ReadMe'
+    git logd
     ```
 
 3. Got to github and create a new repository. Connect your local repo to the remote one.
@@ -123,15 +124,17 @@
 
 4. Open your README.md and and add the line `# hello there` at the top of `README.md` and save.
     ```
+    code README.md
     # hello there
     ```
 
 5. Check the status, then add, check the status, and then commit the new line with a commit message of your choice. Verify using `git status` that the change was committed as expected.
     ```
     git status
-    git add README.md
+    git add .
+    git status
     git commit -m 'Read Me Changes"
-    git push origin master   
+    git status
     ```
 
 6. Push your changes: `git push origin master`. Refresh your github and click on the commit to verify the changes.
@@ -142,6 +145,7 @@
 
 1. Using the markdown below, add a line at the end of the README with a link to the official Git documentation:
 ```
+code README.md
 markdown
 ~/repos/website/README.md
  For more information on Git, see the
