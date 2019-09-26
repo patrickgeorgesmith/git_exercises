@@ -2,11 +2,11 @@
 
 ## First Set
 1. Create a new directory on your Desktop called git_exercises and cd into that directory.
-    ...
-   cd desktop
-   mkdir git_exercises
-   cd git_exercises
-   ...
+   	 **
+    cd desktop
+    mkdir git_exercises
+    cd git_exercises
+    **
 
    
 2. Using `git init`, create a new repository.
